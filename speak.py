@@ -1,7 +1,6 @@
 from aiogram import Bot,Dispatcher,F
 from aiogram.types import Message,CallbackQuery
 from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
-from numpy.ma.core import resize
 import asyncio
 from  aiogram.filters import Command,CommandStart
 from deep_translator import GoogleTranslator
